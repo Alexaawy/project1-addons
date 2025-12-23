@@ -1,5 +1,9 @@
-from odoo import Models
+from odoo import models
 
 
-class ModelD(Models.Model):
-_name = 'model.d'
+class ModelD(models.Model):
+    _name = 'model.d'
+    _log_access = False
+
+
+
